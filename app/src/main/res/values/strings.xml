@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">TimerNotificationApp</string>
+    <string name="boom_view">Boom!</string>
 </resources>
