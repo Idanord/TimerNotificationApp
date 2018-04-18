@@ -10,6 +10,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
+import android.support.v4.app.NotificationCompat;
 import android.view.View;
 
 public class MainActivity extends Activity {
@@ -46,7 +47,7 @@ public class MainActivity extends Activity {
                 new Intent(this, BoomActivity.class), 0);
 
         NotificationCompat.Builder nb = new NotificationCompat.Builder(this);
-        nb.setSmallIcon(R.drawable.ic_launcher);
+        nb.setSmallIcon(R.mipmap.ic_launcher);
         nb.setSound(sound);
         nb.setContentTitle("Knock knock...");
         nb.setContentText("You've got a delivery.");
